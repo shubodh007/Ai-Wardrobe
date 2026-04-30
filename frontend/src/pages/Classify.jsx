@@ -25,7 +25,6 @@ function ArcGauge({ value }) {
   const strokeW = 10
   const r = (size - strokeW) / 2
   const cx = size / 2
-  const cy = size / 2
   const circumference = Math.PI * r // half circle
   const filled = circumference * Math.min(1, Math.max(0, value / 100))
   const pct = value.toFixed(1)

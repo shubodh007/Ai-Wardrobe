@@ -90,7 +90,7 @@ function RadarChart({ metrics, size = 180 }) {
             textAnchor={anchor} fontSize="8.5"
             fill="rgba(247,242,234,0.5)"
             fontFamily="Manrope, sans-serif" fontWeight="600"
-            letterSpacing="0.08em" textTransform="uppercase"
+            letterSpacing="0.08em"
           >
             {m.label.toUpperCase()}
           </text>
